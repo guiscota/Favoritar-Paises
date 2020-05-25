@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Execício guiado - Módulo 1</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="center-align">Favoritar países</h2>
+
+    <div class="row">
+      <div class="col s6 z-depth-2">
+        <h6 class="center-align">Todos os países</h6>
+        <hr>
+        <h5>Países: (<spam id='countCountries'></spam>)</h5>
+        <h6>População total: (<spam id="totalPopulationList"></spam>)</h6>
+        <div class="flow-tex" id="tabCountries"></div>
+      </div>
+
+      <div class="col s6 z-depth-2">
+        <h6 class="center-align">Países favoritos</h6>
+        <hr>
+        <h5>Países: (<spam id='countFavorites'></spam>)</h5>
+        <h6>População total: (<spam id="totalPopulationFavorites"></spam>)</h6>
+        <div class="flow-tex" id="tabFavorites"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
